@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="index(1).css">
+    <link rel="stylesheet" type="text/css" href="Signup.css">
+</head>
+<script defer src="script.js"></script>
+<body>
+    <div id="error"></div>
+    <form id="form" action="/submit"  method="post">
+        <div class="main-div">
+            <div>
+                <div>
+
+                </div>
+                    <div>
+                        <h2>Sign up</h2>
+                        <label>Name<span>*</span></label>
+                        <input type="text" id="name" placeholder="Enter your Username" name="name" required/>
+                        <label>Email<span>*</span></label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your Email address"/>
+                        <label>Phone Number<span>*</span></label>
+                        <input type="text" id="Phone Number" placeholder="Enter your Phone Number" required/>
+                        <label>Password<span>*</span></label>
+                        <input type="password" id="password" placeholder="Password" required/>
+                        <label>Confirm Password<span>*</span></label>
+                        <input type="password" id="Confirm password" placeholder="Confirm Password" required/>
+                        <input type="submit" value="Sign up"/>
+                        <span>Already Have an Account? <a href="#">Log In</a></span>
+                    </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
